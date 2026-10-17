@@ -1,0 +1,17 @@
+{
+  "name": "HealthFlow",
+  "short_name": "HealthFlow",
+  "description": "Book doctor appointments, manage medical records and pay securely.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a56db",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

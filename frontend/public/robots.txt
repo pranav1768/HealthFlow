@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /patient/
+Disallow: /doctor/
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://healthflow.vercel.app/sitemap.xml

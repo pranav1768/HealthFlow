@@ -1,0 +1,23 @@
+{
+  "name": "healthflow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HealthFlow — Practo-inspired multi-role healthcare management platform (MERN)",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w frontend",
+    "seed": "npm run seed -w backend",
+    "lint": "npm run lint -w backend && npm run lint -w frontend",
+    "test": "npm run test -w backend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
